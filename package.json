@@ -9,9 +9,16 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
+    "concurrently": "^5.2.0",
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4",
     "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "start:tsc": "tsc -w",
+    "start:nodemon": "yarn dlx nodemon dist/src/index.js",
+    "start": "yarn dlx concurrently \"yarn start:tsc\" \"yarn start:nodemon\""
   }
 }

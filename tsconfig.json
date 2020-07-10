@@ -4,6 +4,7 @@
   ],
   "exclude": [],
   "compilerOptions": {
+    "outDir": "./dist/src",
     "target": "ES2015",
     "module": "commonjs",
     "strict": true,
