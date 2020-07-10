@@ -5,5 +5,8 @@
     "email": "gabriel.carneiro.castro@gmail.com",
     "name": "Gabriel Carneiro"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
 }
