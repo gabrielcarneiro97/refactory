@@ -1,1 +1,1 @@
-console.log('teste');
+import * as fs from 'fs';
