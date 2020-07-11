@@ -2,7 +2,9 @@
   "include": [
     "src/**/*"
   ],
-  "exclude": [],
+  "exclude": [
+    "src/templates/**/*"
+  ],
   "compilerOptions": {
     "outDir": "./dist/src",
     "target": "ES2015",
